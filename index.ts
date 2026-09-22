@@ -4,3 +4,7 @@ console.log(`ввести два числа
 3. выполнить деление
 4. возвести число в степень
 `)
+
+function pow(base: number, exponent: number): number {
+    return base ** exponent;
+}
